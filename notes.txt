@@ -1,0 +1,19 @@
+use sequelize to store data
+    -DONEusers (has many snippets, has many stars)
+    -DONEsnippets (belongs to user, has many stars)
+    -stars (belongs to user, belongs to stars)
+    -tags? (allows tag consolidation across all users)
+
+user can:
+    register
+    login
+    logout
+
+user can:
+    create a snippet
+    update a snippet
+    see a list of all snippets
+    filter snippets by language
+    filter snippets by tag
+
+deploy all to Heroku

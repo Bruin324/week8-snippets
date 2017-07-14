@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "macuser",
+    "password": null,
+    "database": "Snippets",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "macuser",
+    "password": null,
+    "database": "Snippets",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "macuser",
+    "password": null,
+    "database": "Snippets",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
