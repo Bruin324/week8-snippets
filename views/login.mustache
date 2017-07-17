@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Snippets - Login</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>Log In to Snippets</h1>
+    <form method="post" action="/login">
+        <input type="text" name="email" placeholder="Email" autofocus/>
+        <input type="password" name="password" placeholder="Password" />
+
+        <button type="submit">Submit</button>
+    </form>
+    {{#errors}} <p>{{msg}}</p> {{/errors}}
+    <a href="/register">Click Here to Register</a>
+</body>
+
+</html>

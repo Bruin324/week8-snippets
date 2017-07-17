@@ -1,11 +1,12 @@
 use sequelize to store data
     -DONEusers (has many snippets, has many stars)
     -DONEsnippets (belongs to user, has many stars)
-    -stars (belongs to user, belongs to stars)
+    -stars (belongs to users, belongs to snippets)
     -tags? (allows tag consolidation across all users)
 
 user can:
     register
+        hash password
     login
     logout
 
