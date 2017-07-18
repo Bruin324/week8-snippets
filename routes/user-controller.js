@@ -76,7 +76,7 @@ router.post('/login', async (request, response) => {
         }
         request.session.user = userSession;
         // response.send(request.session);
-        response.redirect('dashboard');
+        response.render('dashboard');
     } else {
         var errors = [{msg: 'Invalid username/password combination'}];
         var model = { errors: errors };
