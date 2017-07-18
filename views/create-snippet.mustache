@@ -15,14 +15,27 @@
         <hr class='nav-hr'>
         <div class='nav-item'><a href="/logout">Logout</a>
         </div>
-    </header>    
+    </header>
     <form method='post' action '/create-snippet'>
         <div>
-            <label for="title">
-            <input type="text" id="title" name="title">
+            <label for="title">Snippet Title</label>
+            <input type="text" id="title" name="title" autofocus>
         </div>
         <div>
-            <textarea class="new-snippet" name="body" rows="3" cols="50" placeholder="Write your gab in 140 characters" autofocus></textarea>
+            <label for="body">Snippet Body/Code</label>
+            <textarea class="new-snippet" id="body" name="body" rows="3" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="notes">Optional Notes</label>
+            <textarea class="new-snippet" id="notes" name="notes" rows="3" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="language">Language</label>
+            <input type="text" name="language" id="language">
+        </div>
+        <div>
+            <label for="tags">Snippet Tags/Categories</label>
+            <input type="text" name="tags" id="tags">
         </div>
 
         <div>
